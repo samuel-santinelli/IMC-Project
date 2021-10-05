@@ -13,13 +13,14 @@
        android:paddingTop="16dp"
        android:paddingStart="32dp"
        android:paddingEnd="32dp"
-       android:background="#8b0000"
+       android:background="@color/primary_dark"
        android:layout_alignParentTop="true"
        android:layout_alignParentStart="true"
        android:layout_alignParentEnd="true">
 
        <TextView
            android:id="@+id/tv_title"
+
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_alignParentStart="true"
@@ -51,12 +52,12 @@
     <ImageView
         android:id="@+id/wave_bottom"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:src="@drawable/ic_wave_up"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -125,10 +126,58 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login_activity_enter"/>
+            android:text="@string/login_activity_enter"
+            android:padding="16dp"
+            android:layout_marginTop="8dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_activity_lembrar_me"
+            android:layout_gravity="end"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_activity_esqueci_a_senha"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textAllCaps="false"
+            android:layout_gravity="end"
+            android:padding="0dp"
+            android:layout_marginTop="-16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="-16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_activity_nao_tem_um_conta"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_activity_criar_uma_conta_agora"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:textAllCaps="false"
+                android:padding="5dp"
+                android:layout_marginStart="4dp"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
     </ScrollView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvido por Samuel Santinelli"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/white"/>
 </RelativeLayout>
