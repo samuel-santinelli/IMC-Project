@@ -53,41 +53,35 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:drawableStart="@drawable/lock_24"
-            />
+            android:layout_marginEnd="6dp"/>
 
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:text="Dados para autenticação"
             android:fontFamily="@font/montserrat"
-            android:textSize="20sp"
-    />
+            android:textSize="20sp"/>
 
 
     </LinearLayout>
-
-
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"/>
+  <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:text="E-mail"
+             android:textColor="@color/primary"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </ScrollView>
-
-<com.google.android.material.textfield.TextInputLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-</com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>
