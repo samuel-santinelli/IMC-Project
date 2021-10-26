@@ -11,16 +11,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="260dp"
+        android:layout_height="280dp"
         android:padding="8dp"
         android:background="@drawable/degrade"
         android:orientation="vertical">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/primary"
-            />
 
         <androidx.cardview.widget.CardView
             android:layout_width="100dp"
@@ -46,7 +40,7 @@
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/white"
                 android:paddingTop="10dp"
-                android:textSize="18sp"/>
+                android:textSize="21sp"/>
 
         <TextView
             android:id="@+id/textSubtitle"
@@ -59,6 +53,209 @@
             android:paddingTop="3dp"
             android:textSize="18sp"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="25.7"
+            android:textSize="25sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1980"
+                android:textSize="25sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="49"
+                android:textSize="25sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="67"
+                android:textSize="25sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1.78"
+                android:textSize="25sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+
+
     </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="IMC"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="NCD"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Idade"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Peso"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Peso"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="140dp"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/peso"
+            android:layout_gravity="start"
+            android:padding="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesar Agora"
+            android:textSize="25sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            android:paddingTop="17dp"
+            android:paddingStart="105dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acompanhe seu peso agora"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/gray"
+            android:paddingTop="60dp"
+            android:paddingStart="104dp"
+            android:gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="16dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/chart"
+        android:layout_gravity="start"
+        android:padding="4dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver histórico"
+            android:textSize="25sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/black"
+            android:paddingTop="17dp"
+            android:paddingStart="105dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reveja suas conquistas"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/gray"
+            android:paddingTop="60dp"
+            android:paddingStart="104dp"
+            android:gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
 </LinearLayout>
 
