@@ -1,50 +1,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashboardActivity"
+    android:layout_width="match_parent"
+    android:background="#0D070707"
     android:orientation="vertical"
-    android:background="#0D070707">
-
+    tools:context=".DashboardActivity">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
         android:background="@color/white"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
 
         <androidx.cardview.widget.CardView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            app:cardCornerRadius="60dp"
-            android:layout_gravity="center_horizontal">
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="60dp">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/paul_walker"
+                android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
-                android:layout_gravity="center_horizontal" />
+                android:src="@drawable/paul_walker" />
 
         </androidx.cardview.widget.CardView>
 
 
         <TextView
-            android:fontFamily="@font/montserrat"
             android:id="@+id/textTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/trocar_foto"
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/primary"
             android:layout_marginTop="8dp"
-            android:textSize="18sp"/>
+            android:fontFamily="@font/montserrat"
+            android:text="@string/trocar_foto"
+            android:textColor="@color/primary"
+            android:textSize="18sp" />
 
-</LinearLayout>
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -61,40 +60,40 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/dados_para_autenticao"
                 android:drawableStart="@drawable/lock_24"
                 android:drawablePadding="8dp"
+                android:fontFamily="@font/montserrat"
                 android:gravity="center_vertical"
-                android:textSize="24sp"
-                android:fontFamily="@font/montserrat"/>
+                android:text="@string/dados_para_autenticao"
+                android:textSize="24sp" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxBackgroundColor="#0D070707"
                 android:layout_marginTop="16dp"
-                android:hint="@string/login_activity_email">
+                android:hint="@string/login_activity_email"
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_novo_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"/>
+                    android:inputType="textEmailAddress" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxBackgroundColor="#0D070707"
                 android:layout_marginTop="16dp"
-                android:hint="Senha">
+                android:hint="Senha"
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_novo_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="numberPassword"/>
+                    android:inputType="numberPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,35 +101,35 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dados pessoais"
+                android:layout_marginTop="24dp"
                 android:drawableStart="@drawable/person_24"
                 android:drawablePadding="8dp"
-                android:gravity="center_vertical"
-                android:textSize="24sp"
                 android:fontFamily="@font/montserrat"
-                android:layout_marginTop="24dp"/>
+                android:gravity="center_vertical"
+                android:text="Dados pessoais"
+                android:textSize="24sp" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxBackgroundColor="#0D070707"
                 android:layout_marginTop="16dp"
-                android:hint="Nome">
+                android:hint="Nome"
+                app:boxBackgroundColor="#0D070707">
 
-            <EditText
-                android:id="@+id/edit_novo_nome"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textCapWords"/>
+                <EditText
+                    android:id="@+id/edit_novo_nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxBackgroundColor="#0D070707"
                 android:layout_marginTop="16dp"
-                android:hint="Profissão">
+                android:hint="Profissão"
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_novo_senha"
@@ -144,9 +143,9 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxBackgroundColor="#0D070707"
                 android:layout_marginTop="16dp"
-                android:hint="Altura">
+                android:hint="Altura"
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_novo_altura"
@@ -160,9 +159,9 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:boxBackgroundColor="#0D070707"
                 android:layout_marginTop="16dp"
-                android:hint="Data de Nascimento">
+                android:hint="Data de Nascimento"
+                app:boxBackgroundColor="#0D070707">
 
                 <EditText
                     android:id="@+id/edit_novo_data_de_nascimento"
@@ -176,36 +175,36 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sexo"
                 android:layout_marginTop="16dp"
-                android:textSize="16sp"
-                android:drawablePadding="8dp"/>
+                android:drawablePadding="8dp"
+                android:text="Sexo"
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="8dp">
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/radio_feminino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Feminino"/>
+                    android:text="Feminino" />
 
 
                 <RadioButton
                     android:id="@+id/radio_masculino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Masculino"/>
+                    android:text="Masculino" />
 
             </RadioGroup>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#f666"/>
+                android:background="#f666" />
 
         </LinearLayout>
 
