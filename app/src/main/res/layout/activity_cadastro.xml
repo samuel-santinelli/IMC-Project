@@ -27,7 +27,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"
-                android:src="@drawable/paul_walker" />
+                android:src="@drawable/serjao_berranteiro" />
 
         </androidx.cardview.widget.CardView>
 
@@ -132,7 +132,7 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
-                    android:id="@+id/edit_novo_senha"
+                    android:id="@+id/edit_novo_profissao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textCapWords"
@@ -167,8 +167,9 @@
                     android:id="@+id/edit_novo_data_de_nascimento"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textCapWords"
-                    tools:ignore="DuplicateIds" />
+                    android:inputType="date"
+                    tools:ignore="DuplicateIds"
+                    android:focusable="false"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 

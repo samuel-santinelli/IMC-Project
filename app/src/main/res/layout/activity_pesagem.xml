@@ -25,11 +25,10 @@
 
         </androidx.cardview.widget.CardView>
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="150dp"
+            android:layout_width="250dp"
+            android:layout_height="220dp"
             android:layout_gravity="center"
-            android:background="@drawable/aerobica"
-            android:layout_marginTop="10dp"/>
+            android:background="@drawable/pilates"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/info_24"
-            android:drawableTint="@color/purple_200"
+            android:drawableTint="@color/primary_red"
             android:layout_marginLeft="30dp"
             android:textColor="@color/black"
             android:drawablePadding="10dp"
@@ -56,11 +55,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:drawableStart="@drawable/accessibility_new_24"
-            android:drawableTint="@color/purple_200"
+            android:drawableTint="@color/primary_red"
             android:textStyle="bold"
             android:textSize="17sp"
             android:layout_marginLeft="20dp"
-            android:textColor="@color/purple_200"
+            android:textColor="@color/primary_red"
             android:drawablePadding="10dp"
             android:text="Dados da sua pesagem"
             />
@@ -72,7 +71,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:textSize="14sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/primary_red"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -104,7 +103,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:background="@color/purple_200"/>
+                android:background="@color/primary_red"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -140,7 +139,7 @@
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/purple_200"
+            android:background="@color/primary_red"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"/>
 
@@ -156,7 +155,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@color/purple_200"/>
+                android:background="@color/primary_red"/>
 
             <TextView
                 android:layout_width="wrap_content"
