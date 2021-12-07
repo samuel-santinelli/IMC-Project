@@ -25,7 +25,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/serjao_berranteiro"
+                android:src="@drawable/students"
                 android:scaleType="centerCrop"
                 android:layout_gravity="center_horizontal" />
 
@@ -183,6 +183,7 @@
             android:background="@color/white"/>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_pesar_agora"
         android:layout_width="380dp"
         android:layout_height="100dp"
         android:layout_marginStart="14dp"
